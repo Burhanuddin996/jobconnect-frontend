@@ -1,4 +1,4 @@
-const API = 'http://localhost:8080/api'
+const API = 'https://jobconnect-backend-p74k.onrender.com/api'
 
 export function saveSession(data) {
   localStorage.setItem('token', data.token)
