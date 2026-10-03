@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import '../App.css'
 import { apiFetch, isLoggedIn, getRole } from '../api'
 
-const API = 'http://localhost:8080/api'
+const API = 'https://jobconnect-backend-p74k.onrender.com/api'
 
 function JobDetailsPage() {
   const { id } = useParams()
