@@ -161,7 +161,7 @@ function JobsPage() {
               <p className="meta">
                 {job.location}
               {job.salaryMin ? ' • ₹' + Number(job.salaryMin).toLocaleString('en-IN') + ' - ₹' + Number(job.salaryMax).toLocaleString('en-IN') : ''}
-                {job.jobType ? ' type ' + job.jobType.replace('_', ' ') : ''}
+              {job.jobType ? ' • ' + job.jobType.replace('_', ' ') : ''}
               </p>
               <p className="desc">{job.description}</p>
             </div>
